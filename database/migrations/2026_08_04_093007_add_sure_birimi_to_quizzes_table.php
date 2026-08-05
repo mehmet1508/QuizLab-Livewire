@@ -1,0 +1,22 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up()
+    {
+        Schema::table('quizzes', function (Blueprint $table) {
+            $table->enum('sure_birimi', ['dakika', 'saniye'])->default('dakika')->after('sure_tipi');
+        });
+    }
+
+    public function down()
+    {
+        Schema::table('quizzes', function (Blueprint $table) {
+            $table->dropColumn('sure_birimi');
+        });
+    }
+};
