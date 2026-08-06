@@ -2,7 +2,7 @@
 
 Bu doküman, bu projeyi (veya bir kopyasını) **başka/temiz bir Linux makinede** sıfırdan çalışır hâle getirmek için gereken tüm komutları sırasıyla listeler. Sürüm detayları için [TEKNOLOJILER.md](TEKNOLOJILER.md)'ye, bir adımda hata alırsanız [OGRENME-NOTLARIM.md](OGRENME-NOTLARIM.md)'deki "Valet / sunucu kurulumunda çıkan sorunlar" bölümüne bakın.
 
-laravel new quiz-livewire
+laravel new <uygulama adi>
 
 ## 0. Genel bakış
 
