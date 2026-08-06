@@ -8,7 +8,7 @@ use Livewire\Attributes\Computed;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 
-new #[Title('Panelim')] class extends Component {
+new #[Title('Dashboard')] class extends Component {
     #[Computed]
     public function siralamalar(): array
     {
